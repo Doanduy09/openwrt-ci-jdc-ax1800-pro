@@ -10,6 +10,10 @@
 # sed -i 's|/bin/login|/bin/login -f root|g' feeds/packages/utils/ttyd/files/ttyd.config
 
 # 移除要替换的包
+rm -rf feeds/packages/net/quectel-cm
+rm -rf package/feeds/packages/quectel-cm
+rm -rf feeds/packages/kernel/fibocom-qmi-wwan
+rm -rf feeds/packages/kernel/quectel-qmi-wwan
 rm -rf feeds/packages/net/mosdns
 rm -rf feeds/packages/net/msd_lite
 rm -rf feeds/packages/net/smartdns
